@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Mon Oct 16 19:47:49 2017">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="48784fb44ef04de493d64854a43f1f68" type="ProjectID"/>
+<property name="ProjectIteration" value="4" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="2" type="JavaHandler"/>
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="FedToggleRoutingResourcesCmdHandler" value="1" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="ReportClockInteraction" value="2" type="JavaHandler"/>
+<property name="ReportClockNetworks" value="1" type="JavaHandler"/>
+<property name="ReportMethodology" value="1" type="JavaHandler"/>
+<property name="ReportTimingSummary" value="2" type="JavaHandler"/>
+<property name="ReportUtilization" value="1" type="JavaHandler"/>
+<property name="RunImplementation" value="3" type="JavaHandler"/>
+<property name="RunSchematic" value="2" type="JavaHandler"/>
+<property name="RunSynthesis" value="1" type="JavaHandler"/>
+<property name="ShowView" value="2" type="JavaHandler"/>
+<property name="SimulationClose" value="2" type="JavaHandler"/>
+<property name="SimulationRestart" value="12" type="JavaHandler"/>
+<property name="SimulationRun" value="17" type="JavaHandler"/>
+<property name="SimulationRunForTime" value="17" type="JavaHandler"/>
+<property name="ToggleViewNavigator" value="1" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="1" type="JavaHandler"/>
+<property name="XdcCreateClock" value="1" type="JavaHandler"/>
+<property name="ZoomFit" value="1" type="JavaHandler"/>
+<property name="ZoomIn" value="2" type="JavaHandler"/>
+<property name="ZoomOut" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="BaseDialog_CANCEL" value="5" type="GuiResourceData"/>
+<property name="BaseDialog_OK" value="44" type="GuiResourceData"/>
+<property name="BaseDialog_YES" value="2" type="GuiResourceData"/>
+<property name="ClockCreationPanel_CLOCK_NAME" value="1" type="GuiResourceData"/>
+<property name="ClockNetworksReportView_CLOCK_NETWORK_TREE" value="1" type="GuiResourceData"/>
+<property name="CmdMsgDialog_OK" value="4" type="GuiResourceData"/>
+<property name="CreateSrcFileDialog_FILE_NAME" value="2" type="GuiResourceData"/>
+<property name="DesignTimingSumSectionPanel_WORST_NEGATIVE_SLACK" value="1" type="GuiResourceData"/>
+<property name="DeviceView_SHOW_CELL_CONNECTIONS" value="1" type="GuiResourceData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="24" type="GuiResourceData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="49" type="GuiResourceData"/>
+<property name="GetObjectsDialog_FIND" value="1" type="GuiResourceData"/>
+<property name="GetObjectsPanel_SET" value="1" type="GuiResourceData"/>
+<property name="GettingStartedView_CREATE_NEW_PROJECT" value="1" type="GuiResourceData"/>
+<property name="GraphicalView_ZOOM_FIT" value="25" type="GuiResourceData"/>
+<property name="GraphicalView_ZOOM_IN" value="23" type="GuiResourceData"/>
+<property name="GraphicalView_ZOOM_OUT" value="10" type="GuiResourceData"/>
+<property name="HDualList_FIND_RESULTS" value="2" type="GuiResourceData"/>
+<property name="HJFileChooserRecentListPreview_RECENT_DIRECTORIES" value="1" type="GuiResourceData"/>
+<property name="MainMenuMgr_FILE" value="4" type="GuiResourceData"/>
+<property name="MainMenuMgr_OPEN_RECENT_PROJECT" value="5" type="GuiResourceData"/>
+<property name="NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE" value="22" type="GuiResourceData"/>
+<property name="NetlistTreeView_NETLIST_TREE" value="3" type="GuiResourceData"/>
+<property name="PACommandNames_ADD_SOURCES" value="2" type="GuiResourceData"/>
+<property name="PACommandNames_AUTO_UPDATE_HIER" value="2" type="GuiResourceData"/>
+<property name="PACommandNames_BEL_CONST_MODE" value="2" type="GuiResourceData"/>
+<property name="PACommandNames_FED_TOGGLE_ROUTING_RESOURCES" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_OPEN_PROJECT" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_SIMULATION_LIVE_RESTART" value="12" type="GuiResourceData"/>
+<property name="PACommandNames_SIMULATION_LIVE_RUN" value="17" type="GuiResourceData"/>
+<property name="PACommandNames_SIMULATION_RUN_BEHAVIORAL" value="9" type="GuiResourceData"/>
+<property name="PACommandNames_SIMULATION_RUN_POST_IMPLEMENTATION_TIMING" value="5" type="GuiResourceData"/>
+<property name="PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_TIMING" value="2" type="GuiResourceData"/>
+<property name="PACommandNames_TOGGLE_VIEW_NAV" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_ZOOM_FIT" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_ZOOM_IN" value="2" type="GuiResourceData"/>
+<property name="PACommandNames_ZOOM_OUT" value="1" type="GuiResourceData"/>
+<property name="PAViews_DEVICE" value="1" type="GuiResourceData"/>
+<property name="PartChooser_PARTS" value="1" type="GuiResourceData"/>
+<property name="PlanAheadTab_SHOW_FLOW_NAVIGATOR" value="2" type="GuiResourceData"/>
+<property name="RDIViews_WAVEFORM_VIEWER" value="23" type="GuiResourceData"/>
+<property name="ReportClockInteractionDialog_TABBED_PANE" value="2" type="GuiResourceData"/>
+<property name="SaveProjectUtils_SAVE" value="1" type="GuiResourceData"/>
+<property name="SdcGetObjectsPanel_SPECIFY_CLOCK_SOURCE_OBJECTS" value="1" type="GuiResourceData"/>
+<property name="SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE" value="2" type="GuiResourceData"/>
+<property name="SrcChooserPanel_CREATE_FILE" value="2" type="GuiResourceData"/>
+<property name="SrcMenu_IP_HIERARCHY" value="1" type="GuiResourceData"/>
+<property name="TaskBanner_CLOSE" value="23" type="GuiResourceData"/>
+<property name="UpgradeProjectDialog_OPEN_PROJECT_IN_READ_ONLY_MODE" value="1" type="GuiResourceData"/>
+<property name="XdcCategoryTree_XDC_CATEGORY_TREE" value="2" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="14" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="11" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
